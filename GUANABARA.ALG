@@ -1,11 +1,12 @@
-Algoritmo "guanabara"
+Algoritmo "Pulando linhas"
 
 Var
 
 
 
 Inicio
-        escreva("hello world")
+        escreval("hello world")
+        escreva("pulei uma linha")
 
 
 Fimalgoritmo
