@@ -3,6 +3,7 @@ Algoritmo "semnome"
 
 Var
      produto, imposto : inteiro
+     resul: real
 
 Inicio
        escreva("Qual o valor do produto? ")
@@ -10,7 +11,11 @@ Inicio
        escreva("Digite o valor do imposto: ")
        leia(imposto)
        
-       produto * imposto / 100
+       resul <- produto * imposto / 100
+       
+       escreva("O valor total de impostos é: ", resul:3:2)
+       
+       
        
 
 Fimalgoritmo
