@@ -1,8 +1,10 @@
 Algoritmo "CalculoIMC"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
 
 Var
-   m, a, imc : real
 
+       m,a, imc : real
 
 Inicio
    escreva("Massa (kg): ")
@@ -18,4 +20,4 @@ Inicio
       escreva("Seu peso nao esta ideal")
    fimse
 
-Fimalgoritmo
+Fimalgoritmo                                                         -
