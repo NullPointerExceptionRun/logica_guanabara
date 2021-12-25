@@ -14,7 +14,7 @@ Inicio
 
    idade <- ano - atual
 
-   se(ano>=18)entao
+   se(idade>=18)entao
       escreva("Voce esta apto para tirar carteira")
    senao
       escreva("Voce não pode tirar a carteira de motorista")
