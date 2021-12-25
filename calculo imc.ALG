@@ -14,7 +14,7 @@ Inicio
    escreval("IMC: ", imc:5:2)
    se(imc >= 18.5)entao
       escreva("Seu peso esta ideal")
-   senao(imc <= 18.2)entao
+   senao
       escreva("Seu peso nao esta ideal")
    fimse
 
