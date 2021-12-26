@@ -1,14 +1,21 @@
-Algoritmo "Contador até 10 - ESTRUTURA DE REPETIÇÃO"
+Algoritmo "MINI CALCULADORA DE MULTPLICAÇÃO - ESTRUTURA DE REPETIÇÃO"
 
 Var
-   contador: inteiro
+   contador, n,c,s,r: inteiro
 Inicio
 
    contador <- 1
+   escreva("INSIRA O NUMERO A SER LIDO: ")
+   leia(n)
+   escreva("INSIRA ATÉ ONDE CONTAR: ")
+   leia(c)
+   escreva("INSIRA O NUMERO DE SALTOS PARA CONTAR:")
+   leia(s)
    repita
-      escreval(contador)
-      contador <- contador + 1
-   ate(contador >10)
+      r <- n * contador
+      escreval(n, " x",contador,"= ", r)
+      contador <- contador + s
+   ate(contador >c)
 
 
 
