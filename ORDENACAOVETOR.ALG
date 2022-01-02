@@ -3,7 +3,7 @@ Algoritmo "OrdenacaoVetor"
 
 
 Var
-   vet:vetor[1..4]de inteiro
+   vet:vetor[1..10]de inteiro
    i,j,aux:inteiro
 
 
@@ -13,7 +13,7 @@ Inicio
       leia(vet[i])
    fimpara
 
-   para i<- 1 ate 3 faca
+   para i<- 1 ate 10 faca
       para j <- i+ 1 ate 4 faca
          se (vet[i]> vet [j])entao
             aux <- vet[i]
@@ -22,7 +22,7 @@ Inicio
          fimse
       fimpara
    fimpara
-   para i <- 1 ate 4 faca
+   para i <- 1 ate 10 faca
       escreva("{", vet[i],"}")
    fimpara
 Fimalgoritmo
